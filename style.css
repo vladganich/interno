@@ -30,6 +30,11 @@ body {
   font-family: 'Jost', sans-serif;
 }
 
+.connect {
+  color: #000;
+  text-decoration: none;
+}
+
 .date {
   font-family: 'Jost', sans-serif;
   font-size: 16px;
@@ -47,7 +52,7 @@ body {
   background-color: #CDA274;
   color: white;
   border:0;
-  font-size:15px;
+  font-size:18px;
   padding:20px 30px 20px 30px;
 
   border-radius: 15px;
