@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost&display=swap');
 
 body {
+  /* font-family: 'DM Serif Display', serif; */
+
+  font-family: 'Jost', sans-serif;
+}
+.card-text {
   font-family: 'DM Serif Display', serif;
 }
 
@@ -12,6 +17,8 @@ body {
   height:auto;
   
 }
+
+.menu_list a {color:#000;}
 
 .card {
   padding: 20px;

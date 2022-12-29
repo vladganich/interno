@@ -84,6 +84,7 @@ h1 {
     height: 71px;
     background: #292F36;
     border-radius: 18px;
+    padding-top: 15px;
 }
 
 .get_started p {
@@ -197,7 +198,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 5px;
-    width: 263px;
+    width: 280px;
     height: 71px;
     background: #292F36;
     border-radius: 18px;
