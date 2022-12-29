@@ -1,5 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
 
+
+
+.post-container {
+    background: #F4F0EC;
+    width: 1200px;
+    height: 675px;
+    border-radius: 70px;
+}
+
+.container .hero-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.hero-title h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 45px !important;
+    line-height: 58px;
+}
+
+.post-name {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.post-place {
+    color: #4D5053;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.post-description {
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D5053;
+}
+
+.hero_items {
+    height: 287px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    column-gap: 18px;
+    border-radius: 30px;
+}
+
+.post_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+}
+
+.post_photo {
+    width: calc(30% - 10px);
+}
+
+.post_text {
+    width: calc(70% - 10px);
+}
+
+.user_1,
+.user_3,
+.user_2 {
+    width: 33.333%;
+    height: 287px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 45px 30px;
+}
+
+.logos {
+    justify-content: center;
+    padding-top: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    column-gap: 130px;
+
+}
+
+
 body {
     margin: 0;
 }
