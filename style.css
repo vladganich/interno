@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost&display=swap');
+
+body {
+  font-family: 'DM Serif Display', serif;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+
+  width: 100%;
+  height:auto;
+  
+}
+
+.card {
+  padding: 20px;
+  border-radius: 62px;
+  margin-bottom: 20px;
+}
+
+.lead, .btn {
+  font-family: 'Jost', sans-serif;
+}
+
+.date {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+}
+
+.btn-rnd {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border:0;
+  background-color: #F4F0EC;
+}
+
+.btn-lead {
+  background-color: #CDA274;
+  color: white;
+  border:0;
+  font-size:15px;
+  padding:20px 30px 20px 30px;
+
+  border-radius: 15px;
+}
+
+.btn-lead:hover {
+  background-color: #F4F0EC;
+  color: #000;
+}
+
+.card-text {
+  font-size:22px;
+}
+
+.bg-dark {
+  background-color: #292F36;
+  color: white;
+  border-radius: 70px;
+}
+.nav-link {
+  font-family: 'Jost', sans-serif;
+}
+
+.lead a {
+  color:#CDA274;
+}
+
+.img-lb {
+  position: relative; 
+  bottom:70px; 
+  left:25px;
+  background-color: #FFF;
+  width: 170px;
+  padding: 10px 20px;
+  font-family: 'Jost', sans-serif;
+  border-radius: 8px 8px 8px 0px;
+}

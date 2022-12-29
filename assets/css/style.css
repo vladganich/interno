@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Dm Serif Display';
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 17px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_list {
+    font-family: 'Jost';
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    column-gap: 40px;
+}
+
+.menu_list li a:hover {
+     color: #CDA274;
+}
+
+.menu_list a {
+    transition: color 0.7;
+    display: block;
+    text-decoration: none;
+}
+
+
+.container_2 {
+     width: 1500px;
+     margin: auto;
+     padding: auto;
+}
+
+.text_picture {
+    width: 800px;
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 188px;
+}
+
+.text_picture h1 {
+    height: 192px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    font-size: 80px;
+}
+
+.text_picture p {
+    font-family: 'Jost';
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.under_title {
+    width: 600px;
+}
+
+.get_started {
+    display: flex;
+    justify-content: center;
+    width: 207px;
+    height: 71px;
+    background: #292F36;
+    border-radius: 18px;
+}
+
+.get_started p {
+    color: white;
+}
+
+.get_started a {
+    text-decoration: none;
+    color: #CDA274;
+}
+
+.container_3 a {
+    text-decoration: none;
+    color: #CDA274;
+}
+
+.container_3 {
+    margin-top: 175px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+
+}
+
+.container_3 h1 {
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+
+.container_3 p {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+
+.Interior_Design {
+    width: 310px;
+}
+
+.Furniture {
+    width: 280px;
+}
+
+.Flooring {
+    width: 280px;
+}
+
+.container_3 a {
+    font-size: 30px;
+}
+
+.Interior_Design_More {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 35px;
+}
+
+.Furniture_More {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 35px;
+}
+
+.Flooring_More {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 35px;
+}
+
+.main_3 {
+    margin-top: 200px;
+}
+.container_4 {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.About h1 {
+    width: 500px;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+}
+
+.About p {
+    width: 500px;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.phone {
+    margin-left: 20px;
+    line-height: 36px;
+}
+
+.Get_Free_Estimate {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 263px;
+    height: 71px;
+    background: #292F36;
+    border-radius: 18px;
+}
+
+.Get_Free_Estimate p {
+    color: white;
+    margin: auto 30px;
+}
+
+.Get_Free_Estimate a {
+    text-decoration: none;
+    color: #CDA274;
+}
+
+
+
+
+
