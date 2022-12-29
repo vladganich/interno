@@ -89,9 +89,21 @@
     padding-right: 120px;
     display: flex;
     column-gap: 130px;
+    align-items: center;
 
 }
 
+.nav-link {
+    color: #000;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color: #CDA274;
+}
+.nav-pills .nav-link.active {
+    color: #CDA274; 
+    background-color:#fff;
+}
 
 body {
     margin: 0;
@@ -102,10 +114,23 @@ h1 {
     font-family: 'Dm Serif Display';
 }
 
+.main-banner {
+    width:110%; 
+    margin-left:-5%;  
+    background-image: url('../img/IMAGE%20(1).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 0px 300px;
+
+}
 .container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.logos img {
+    height: 100%;
 }
 
 .header {
@@ -142,8 +167,10 @@ h1 {
 .container_2 {
      width: 1500px;
      margin: auto;
+     margin-left:-10%;
      padding: auto;
 }
+
 
 .text_picture {
     width: 800px;
@@ -178,6 +205,7 @@ h1 {
     background: #292F36;
     border-radius: 18px;
     padding-top: 15px;
+    margin-top: 20px;
 }
 
 .get_started p {
